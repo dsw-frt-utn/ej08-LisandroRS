@@ -10,13 +10,15 @@ namespace Dsw2026Ej8.Problema5
         {
             return _amount;
         }
-        public void setAmount(decimal amount) {
-            _amount= amount;
-    }
+        public void setAmount(decimal amount)
+        {
+            _amount = amount;
+        }
 
         public virtual decimal CalculateTotal()
         {
             return _amount;
         }
 
+    }
 }

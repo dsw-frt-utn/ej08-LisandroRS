@@ -16,7 +16,8 @@ namespace Dsw2026Ej8
 {
     public class Problema4
     {
-        public double CalcularPromedio(int? nota1, int? nota2, int? nota3) {
+        public double CalcularPromedio(int? nota1, int? nota2, int? nota3)
+        {
 
             double suma = 0;
             int notasValidas = 0;
@@ -47,3 +48,4 @@ namespace Dsw2026Ej8
             return suma / notasValidas;
         }
     }
+}
